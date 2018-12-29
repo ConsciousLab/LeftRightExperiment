@@ -4,21 +4,6 @@ let experiment_blocks = [];
 // experiment_blocks.push(test_animation);
 // experiment_blocks.push(poor_animation);
 
-var sample_function = function(param){
-    var size = 50 + Math.floor(param*250);
-    var html = '<div style="display: block; margin: auto; height: 300px;">'+
-        '<div style="display: block; margin: auto; background-color: #000000; '+
-        'width: '+size+'px; height: '+size+'px;"></div></div>';
-    return html;
-};
-
-var trialer = {
-    type: 'reconstruction',
-    stim_function: sample_function,
-    starting_value: 0.25
-};
-
-experiment_blocks.push(trialer);
 /* define welcome message trial */
 let welcome = {
     type: "html-keyboard-response",
@@ -35,6 +20,10 @@ const fullscreen = {
 };
 experiment_blocks.push(fullscreen);
 
+// defining two different response scales that can be used.
+const scale_smart = ["Stupid", "Below average", "Average", "Smart", "Very smart", "Genius"];
+const numberScale = [1,2,3,4,5,6,7,8,9,10];
+
 //Ask from the user for details
 const StartSurvey = [
     {
@@ -47,6 +36,7 @@ const StartSurvey = [
             columns: 20,
             rows: 1,
             value: '',
+            data: "Age"
         },
         {
             id: 'name',
@@ -74,6 +64,14 @@ const StartSurvey = [
                 options: ["Male", "Female", "Other"],
                 required: true
             }]
+    },
+    {
+        type: 'survey-likert',
+        questions: [{prompt: "How smart do you think you are.", labels: numberScale}]
+    },
+    {
+        type: 'survey-likert',
+        questions: [{prompt: "How confident do you think you are.", labels: numberScale}]
     }
 ];
 experiment_blocks = experiment_blocks.concat(StartSurvey);
@@ -121,13 +119,15 @@ experiment_blocks.push(welcome2);
 
 let secondStimulus = [];
 for(let i = 0 ;i < 5; i++){
-    secondStimulus.push({ stimulus: '<div style="font-size:500%;" align="center">left</div>',
+    secondStimulus.push(
+        { stimulus: '<div style="font-size:500%;" align="center">left</div>',
             data: {test_part: 'trial', correct_response: 'f'}},
         { stimulus: "<div style=\"font-size:500%;\" align=\"center\">right</div>",
             data: {test_part: 'trial', correct_response: 'j'}})
 }
 for(let i = 0 ;i < 2; i++){
-    secondStimulus.push({ stimulus: '<div style="font-size:500%;" align="center">left</div>',
+    secondStimulus.push(
+        { stimulus: '<div style="font-size:500%; color: red" align="center">left</div>',
             data: {test_part: 'trial', correct_response: 'f'}},
         { stimulus: "<div style=\"font-size:500%; color: red;\" align=\"center\">right</div>",
             data: {test_part: 'trial', correct_response: 'j'}})
@@ -140,17 +140,6 @@ const second_trial_procedure = {
 };
 
 experiment_blocks.push(second_trial_procedure);
-
-let animation_sequence = ["../img/1.jpg"];
-
-const animation_trial = {
-    type: 'animation',
-    stimuli: animation_sequence,
-    sequence_reps: 3
-};
-
-experiment_blocks.push(animation_trial);
-
 
 jsPsych.init({
     timeline: experiment_blocks,
