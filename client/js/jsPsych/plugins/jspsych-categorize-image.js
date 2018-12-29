@@ -106,7 +106,7 @@ jsPsych.plugins['categorize-image'] = (function() {
 
   plugin.trial = function(display_element, trial) {
 
-    display_element.innerHTML = '<img id="jspsych-categorize-image-stimulus" class="jspsych-categorize-image-stimulus" src="'+trial.stimulus+'"></img>';
+    display_element.innerHTML = '<img id="jspsych-categorize-image-stimulus" class="jspsych-categorize-image-stimulus" client="'+trial.stimulus+'"></img>';
 
     // hide image after time if the timing parameter is set
     if (trial.stimulus_duration !== null) {
@@ -174,7 +174,7 @@ jsPsych.plugins['categorize-image'] = (function() {
       } else {
         // show image during feedback if flag is set
         if (trial.show_stim_with_feedback) {
-          display_element.innerHTML = '<img id="jspsych-categorize-image-stimulus" class="jspsych-categorize-image-stimulus" src="'+trial.stimulus+'"></img>';
+          display_element.innerHTML = '<img id="jspsych-categorize-image-stimulus" class="jspsych-categorize-image-stimulus" client="'+trial.stimulus+'"></img>';
         }
 
         // substitute answer in feedback string.

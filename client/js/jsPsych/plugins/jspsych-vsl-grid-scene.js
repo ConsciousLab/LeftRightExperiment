@@ -84,7 +84,7 @@ jsPsych.plugins['vsl-grid-scene'] = (function() {
           '<div id="jspsych-vsl-grid-scene-table-cell-' + row + '-' + col + '" style="width: '+image_size[0]+'px; height: '+image_size[1]+'px;">';
         if (pattern[row][col] !== 0) {
           html += '<img '+
-            'src="'+pattern[row][col]+'" style="width: '+image_size[0]+'px; height: '+image_size[1]+'"></img>';
+            'client="'+pattern[row][col]+'" style="width: '+image_size[0]+'px; height: '+image_size[1]+'"></img>';
         }
         html += '</div>';
         html += '</td>';

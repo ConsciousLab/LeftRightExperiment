@@ -87,7 +87,7 @@ jsPsych.plugins["image-button-response"] = (function() {
     }
 
     // display stimulus
-    var html = '<img src="'+trial.stimulus+'" id="jspsych-image-button-response-stimulus"></img>';
+    var html = '<img client="'+trial.stimulus+'" id="jspsych-image-button-response-stimulus"></img>';
 
     //display buttons
     var buttons = [];

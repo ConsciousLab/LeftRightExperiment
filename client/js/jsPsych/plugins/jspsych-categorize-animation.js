@@ -115,7 +115,7 @@ jsPsych.plugins["categorize-animation"] = (function() {
       }
 
       if (showAnimation) {
-        display_element.innerHTML += '<img src="'+trial.stimuli[animate_frame]+'" class="jspsych-categorize-animation-stimulus"></img>';
+        display_element.innerHTML += '<img client="'+trial.stimuli[animate_frame]+'" class="jspsych-categorize-animation-stimulus"></img>';
       }
 
       if (!responded && trial.allow_response_before_complete) {

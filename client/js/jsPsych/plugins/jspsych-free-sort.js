@@ -100,8 +100,8 @@ jsPsych.plugins['free-sort'] = (function() {
       var coords = random_coordinate(trial.sort_area_width - trial.stim_width, trial.sort_area_height - trial.stim_height);
 
       display_element.querySelector("#jspsych-free-sort-arena").innerHTML += '<img '+
-        'src="'+trial.stimuli[i]+'" '+
-        'data-src="'+trial.stimuli[i]+'" '+
+        'client="'+trial.stimuli[i]+'" '+
+        'data-client="'+trial.stimuli[i]+'" '+
         'class="jspsych-free-sort-draggable" '+
         'draggable="false" '+
         'style="position: absolute; cursor: move; width:'+trial.stim_width+'px; height:'+trial.stim_height+'px; top:'+coords.y+'px; left:'+coords.x+'px;">'+

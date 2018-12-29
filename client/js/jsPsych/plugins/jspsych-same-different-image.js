@@ -73,7 +73,7 @@ jsPsych.plugins['same-different-image'] = (function() {
 
   plugin.trial = function(display_element, trial) {
 
-    display_element.innerHTML = '<img class="jspsych-same-different-stimulus" src="'+trial.stimuli[0]+'"></img>';
+    display_element.innerHTML = '<img class="jspsych-same-different-stimulus" client="'+trial.stimuli[0]+'"></img>';
 
     var first_stim_info;
     if (trial.first_stim_duration > 0) {
@@ -104,7 +104,7 @@ jsPsych.plugins['same-different-image'] = (function() {
 
     function showSecondStim() {
 
-      var html = '<img class="jspsych-same-different-stimulus" src="'+trial.stimuli[1]+'"></img>';
+      var html = '<img class="jspsych-same-different-stimulus" client="'+trial.stimuli[1]+'"></img>';
       //show prompt
       if (trial.prompt !== null) {
         html += trial.prompt;

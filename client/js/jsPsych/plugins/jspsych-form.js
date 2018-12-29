@@ -13,8 +13,8 @@
 Required links in the html file:
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.2.1/material.indigo-pink.min.css">
-<script src="../jspsych.js"></script>
-<script src="../plugins/jspsych-form.js"></script>
+<script client="../jspsych.js"></script>
+<script client="../plugins/jspsych-form.js"></script>
 
 SCHEMA EXAMPLE:
 

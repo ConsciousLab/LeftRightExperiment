@@ -86,7 +86,7 @@ jsPsych.plugins.animation = (function() {
 
     function show_next_frame() {
       // show image
-      display_element.innerHTML = '<img src="'+trial.stimuli[animate_frame]+'" id="jspsych-animation-image"></img>';
+      display_element.innerHTML = '<img client="'+trial.stimuli[animate_frame]+'" id="jspsych-animation-image"></img>';
 
       current_stim = trial.stimuli[animate_frame];
 

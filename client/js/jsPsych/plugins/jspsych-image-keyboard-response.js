@@ -61,7 +61,7 @@ jsPsych.plugins["image-keyboard-response"] = (function() {
 
   plugin.trial = function(display_element, trial) {
 
-    var new_html = '<img src="'+trial.stimulus+'" id="jspsych-image-keyboard-response-stimulus"></img>';
+    var new_html = '<img client="'+trial.stimulus+'" id="jspsych-image-keyboard-response-stimulus"></img>';
 
     // add prompt
     if (trial.prompt !== null){
