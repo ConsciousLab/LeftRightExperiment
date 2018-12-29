@@ -1,6 +1,31 @@
 console.log('start task.js');
 
-console.log("Enter fullscreen");
+let experiment_blocks = [];
+// experiment_blocks.push(test_animation);
+// experiment_blocks.push(poor_animation);
+
+var sample_function = function(param){
+    var size = 50 + Math.floor(param*250);
+    var html = '<div style="display: block; margin: auto; height: 300px;">'+
+        '<div style="display: block; margin: auto; background-color: #000000; '+
+        'width: '+size+'px; height: '+size+'px;"></div></div>';
+    return html;
+};
+
+var trialer = {
+    type: 'reconstruction',
+    stim_function: sample_function,
+    starting_value: 0.25
+};
+
+experiment_blocks.push(trialer);
+/* define welcome message trial */
+let welcome = {
+    type: "html-keyboard-response",
+    stimulus: "Welcome to the experiment. Press any key to begin."
+};
+experiment_blocks.push(welcome);
+
 //Enter fullscreen
 const fullscreen = {
     type: 'fullscreen',
@@ -8,6 +33,8 @@ const fullscreen = {
     message: '<p>This study runs in fullscreen. To switch to full screen mode \
   and start the HIT, press the button below.</p>'
 };
+experiment_blocks.push(fullscreen);
+
 //Ask from the user for details
 const StartSurvey = [
     {
@@ -49,13 +76,16 @@ const StartSurvey = [
             }]
     }
 ];
+experiment_blocks = experiment_blocks.concat(StartSurvey);
+
 //Trial stimulus
-const stimulus = [
-    { stimulus: '<div style="font-size:50%;" align="center">left</div>',
-        data: {test_part: 'test', correct_response: 'f'}},
-    { stimulus: "<div style=\"font-size:50%;\" align=\"center\">right</div>",
-        data: {test_part: 'test', correct_response: 'j'}}
-];
+let stimulus = [];
+for(let i = 0 ;i < 5; i++){
+    stimulus.push({ stimulus: '<div style="font-size:500%;" align="center">left</div>',
+            data: {test_part: 'trial', correct_response: 'f'}},
+        { stimulus: "<div style=\"font-size:500%;\" align=\"center\">right</div>",
+            data: {test_part: 'trial', correct_response: 'j'}})
+}
 //Trial fixation
 const fixation = {
     type: 'html-keyboard-response',
@@ -75,19 +105,52 @@ const trial = {
     }
 };
 //Trial procedure component
-const trial_procedure = {
+const first_trial_procedure = {
     timeline: [fixation, trial],
     timeline_variables: stimulus,
     randomize_order: true,
-    repetitions: 5
+    repetitions: 1
+};
+experiment_blocks.push(first_trial_procedure);
+
+let welcome2 = {
+    type: "html-keyboard-response",
+    stimulus: "Welcome to the experiment. Press any key to begin."
+};
+experiment_blocks.push(welcome2);
+
+let secondStimulus = [];
+for(let i = 0 ;i < 5; i++){
+    secondStimulus.push({ stimulus: '<div style="font-size:500%;" align="center">left</div>',
+            data: {test_part: 'trial', correct_response: 'f'}},
+        { stimulus: "<div style=\"font-size:500%;\" align=\"center\">right</div>",
+            data: {test_part: 'trial', correct_response: 'j'}})
+}
+for(let i = 0 ;i < 2; i++){
+    secondStimulus.push({ stimulus: '<div style="font-size:500%;" align="center">left</div>',
+            data: {test_part: 'trial', correct_response: 'f'}},
+        { stimulus: "<div style=\"font-size:500%; color: red;\" align=\"center\">right</div>",
+            data: {test_part: 'trial', correct_response: 'j'}})
+}
+const second_trial_procedure = {
+    timeline: [fixation, trial],
+    timeline_variables: secondStimulus,
+    randomize_order: true,
+    repetitions: 1
 };
 
-let experiment_blocks = [];
-// experiment_blocks.push(test_animation);
-// experiment_blocks.push(poor_animation);
-experiment_blocks.push(fullscreen);
-experiment_blocks = experiment_blocks.concat(StartSurvey);
-experiment_blocks.push(trial_procedure);
+experiment_blocks.push(second_trial_procedure);
+
+let animation_sequence = ["../img/1.jpg"];
+
+const animation_trial = {
+    type: 'animation',
+    stimuli: animation_sequence,
+    sequence_reps: 3
+};
+
+experiment_blocks.push(animation_trial);
+
 
 jsPsych.init({
     timeline: experiment_blocks,
