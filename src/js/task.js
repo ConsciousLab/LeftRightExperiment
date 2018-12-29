@@ -71,6 +71,14 @@ const StartSurvey = [
 ];
 experiment_blocks = experiment_blocks.concat(StartSurvey);
 
+let introPracticeExp = {
+    type: "html-keyboard-response",
+    stimulus: "Let's start with some practice.\n" +
+        "press m if you see the word right and z if you see the word left.\n" +
+        "Press any key to begin."
+};
+experiment_blocks.push(introPracticeExp);
+
 //Trial stimulus
 let stimulus = [];
 for(let i = 0 ;i < 30; i++){
@@ -110,7 +118,9 @@ experiment_blocks.push(first_trial_procedure);
 
 let introMainExp = {
     type: "html-keyboard-response",
-    stimulus: "Now the real experiment begin. Press any key to begin."
+    stimulus: "Now the real experiment begin.\n" +
+        "The same introductions as before but if the word is red, to the opposite\n" +
+        "Press any key to begin."
 };
 experiment_blocks.push(introMainExp);
 

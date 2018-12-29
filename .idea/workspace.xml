@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63308814-31e9-486b-8b1a-ec6cbd2a84dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/task.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="191">
+              <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
               <folding>
                 <element signature="e#195#301#0" />
                 <element signature="e#102#286#0" />
@@ -41,9 +40,8 @@
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#1548#1716#0" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="e#1750#2087#0" />
                 <element signature="e#2141#2257#0" />
-                <element signature="e#3169#3279#0" />
+                <element signature="e#3524#3736#0" />
                 <element signature="e#2612#2914#0" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -69,11 +67,6 @@
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/experiments.js">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -176,12 +169,12 @@
       <updated>1545915943881</updated>
       <workItem from="1545915945279" duration="5757000" />
       <workItem from="1546012959096" duration="1381000" />
-      <workItem from="1546014607765" duration="8607000" />
+      <workItem from="1546014607765" duration="10116000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15745000" />
+    <option name="totallyTimeSpent" value="17254000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
@@ -213,9 +206,6 @@
     <entry file="file://$PROJECT_DIR$/src/img">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/experiments.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/jsPsych/plugins/jspsych-animation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -239,6 +229,9 @@
     <entry file="file://$PROJECT_DIR$/src/js/utils.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/experiments.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
@@ -253,8 +246,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="191">
+          <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
           <folding>
             <element signature="e#195#301#0" />
             <element signature="e#102#286#0" />
@@ -270,9 +263,8 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#1548#1716#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="e#1750#2087#0" />
             <element signature="e#2141#2257#0" />
-            <element signature="e#3169#3279#0" />
+            <element signature="e#3524#3736#0" />
             <element signature="e#2612#2914#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
