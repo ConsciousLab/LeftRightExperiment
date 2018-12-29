@@ -4,7 +4,7 @@ let experiment_blocks = [];
 // experiment_blocks.push(test_animation);
 // experiment_blocks.push(poor_animation);
 
-/* define welcome message trial */
+//Define welcome message trial
 let welcome = {
     type: "html-keyboard-response",
     stimulus: "Welcome to the experiment. Press any key to begin."
@@ -20,40 +20,31 @@ const fullscreen = {
 };
 experiment_blocks.push(fullscreen);
 
-// defining two different response scales that can be used.
-const scale_smart = ["Stupid", "Below average", "Average", "Smart", "Very smart", "Genius"];
+// defining response scales that can be used.
 const numberScale = [1,2,3,4,5,6,7,8,9,10];
+const educationScale = ["Less ", "High school graduate", "College student", "BA", "Master's degree", "Above"];
 
 //Ask from the user for details
 const StartSurvey = [
     {
         type: "survey-text",
-        button_label: 'המשיכי',
-        questions: [
-        {
-            name: 'age',
-            prompt: "How old are you?",
-            columns: 20,
-            rows: 1,
-            value: '',
-            data: "Age"
-        },
-        {
-            id: 'name',
-            prompt: "Name?",
-            columns: 20,
-            rows: 1,
-            required: true,
-            value: ''
-        },
-        {
-            id: 'education',
-            prompt: "Education?",
-            columns: 20,
-            rows: 1,
-            value: '',
-            required: true
-        }]
+        questions:
+            [
+                {
+                    name: 'age',
+                    prompt: "How old are you?",
+                    columns: 20,
+                    rows: 1,
+                    value: ''
+                },
+                {
+                    id: 'name',
+                    prompt: "What is your name?",
+                    columns: 20,
+                    rows: 1,
+                    value: ''
+                }
+            ]
     },
     {
         type: "survey-multi-choice",
@@ -64,6 +55,10 @@ const StartSurvey = [
                 options: ["Male", "Female", "Other"],
                 required: true
             }]
+    },
+    {
+        type: 'survey-likert',
+        questions: [{prompt: "What is your education status", labels: educationScale}]
     },
     {
         type: 'survey-likert',
@@ -78,8 +73,9 @@ experiment_blocks = experiment_blocks.concat(StartSurvey);
 
 //Trial stimulus
 let stimulus = [];
-for(let i = 0 ;i < 5; i++){
-    stimulus.push({ stimulus: '<div style="font-size:500%;" align="center">left</div>',
+for(let i = 0 ;i < 30; i++){
+    stimulus.push(
+        { stimulus: '<div style="font-size:500%;" align="center">left</div>',
             data: {test_part: 'trial', correct_response: 'f'}},
         { stimulus: "<div style=\"font-size:500%;\" align=\"center\">right</div>",
             data: {test_part: 'trial', correct_response: 'j'}})
@@ -88,21 +84,22 @@ for(let i = 0 ;i < 5; i++){
 const fixation = {
     type: 'html-keyboard-response',
     stimulus: '<div align="center" style="font-size:500%;">+</div>',
-    choices: ['f', 'j'],
+    choices: ['z', 'm'],
     data: {test_part: 'fixation'},
 };
+
 //Trial component
 const trial = {
     type: "html-keyboard-response",
     stimulus: jsPsych.timelineVariable('stimulus'),
-    choices: ['f', 'j'],
+    choices: jsPsych.NO_KEYS,
     data: jsPsych.timelineVariable('data'),
     trial_duration: "300",
     on_finish: function(data){
         data.correct = data.key_press === jsPsych.pluginAPI.convertKeyCharacterToKeyCode(data.correct_response);
     }
 };
-//Trial procedure component
+
 const first_trial_procedure = {
     timeline: [fixation, trial],
     timeline_variables: stimulus,
@@ -111,21 +108,21 @@ const first_trial_procedure = {
 };
 experiment_blocks.push(first_trial_procedure);
 
-let welcome2 = {
+let introMainExp = {
     type: "html-keyboard-response",
-    stimulus: "Welcome to the experiment. Press any key to begin."
+    stimulus: "Now the real experiment begin. Press any key to begin."
 };
-experiment_blocks.push(welcome2);
+experiment_blocks.push(introMainExp);
 
 let secondStimulus = [];
-for(let i = 0 ;i < 5; i++){
+for(let i = 0 ;i < 70; i++){
     secondStimulus.push(
         { stimulus: '<div style="font-size:500%;" align="center">left</div>',
             data: {test_part: 'trial', correct_response: 'f'}},
         { stimulus: "<div style=\"font-size:500%;\" align=\"center\">right</div>",
             data: {test_part: 'trial', correct_response: 'j'}})
 }
-for(let i = 0 ;i < 2; i++){
+for(let i = 0 ;i < 30; i++){
     secondStimulus.push(
         { stimulus: '<div style="font-size:500%; color: red" align="center">left</div>',
             data: {test_part: 'trial', correct_response: 'f'}},

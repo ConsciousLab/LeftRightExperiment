@@ -24,17 +24,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+            <state relative-caret-position="115">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
               <folding>
+                <element signature="e#195#301#0" />
                 <element signature="e#102#286#0" />
-                <element signature="e#650#1632#0" />
-                <element signature="e#1121#1715#0" />
-                <element signature="e#1213#1358#0" />
-                <element signature="e#1368#1528#0" />
-                <element signature="e#1538#1708#0" />
+                <element signature="e#848#1961#0" />
+                <element signature="e#1113#1281#0" />
                 <element signature="e#1721#1978#0" />
                 <element signature="e#1004#1197#0" />
+                <element signature="e#1589#1713#0" />
                 <element signature="e#1717#1841#0" />
                 <element signature="e#1847#1971#0" />
                 <element signature="e#1536#1544#0" />
@@ -44,7 +43,7 @@
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#1750#2087#0" />
                 <element signature="e#2141#2257#0" />
-                <element signature="e#3221#3327#0" />
+                <element signature="e#3169#3279#0" />
                 <element signature="e#2612#2914#0" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -61,10 +60,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="828">
-              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+            <state relative-caret-position="92">
+              <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
               <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" />
                 <element signature="n#script#17;n#head#0;n#html#0;n#!!top" />
+                <element signature="n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -84,6 +85,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>push</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,18 +176,18 @@
       <updated>1545915943881</updated>
       <workItem from="1545915945279" duration="5757000" />
       <workItem from="1546012959096" duration="1381000" />
-      <workItem from="1546014607765" duration="4661000" />
+      <workItem from="1546014607765" duration="8607000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11799000" />
+    <option name="totallyTimeSpent" value="15745000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35267857" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35267857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -193,7 +199,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32991454" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.32991454" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -235,27 +241,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="828">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+        <state relative-caret-position="92">
+          <caret line="47" column="7" lean-forward="true" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
           <folding>
+            <element signature="n#head#0;n#html#0;n#!!top" />
             <element signature="n#script#17;n#head#0;n#html#0;n#!!top" />
+            <element signature="n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        <state relative-caret-position="115">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
           <folding>
+            <element signature="e#195#301#0" />
             <element signature="e#102#286#0" />
-            <element signature="e#650#1632#0" />
-            <element signature="e#1121#1715#0" />
-            <element signature="e#1213#1358#0" />
-            <element signature="e#1368#1528#0" />
-            <element signature="e#1538#1708#0" />
+            <element signature="e#848#1961#0" />
+            <element signature="e#1113#1281#0" />
             <element signature="e#1721#1978#0" />
             <element signature="e#1004#1197#0" />
+            <element signature="e#1589#1713#0" />
             <element signature="e#1717#1841#0" />
             <element signature="e#1847#1971#0" />
             <element signature="e#1536#1544#0" />
@@ -265,7 +272,7 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#1750#2087#0" />
             <element signature="e#2141#2257#0" />
-            <element signature="e#3221#3327#0" />
+            <element signature="e#3169#3279#0" />
             <element signature="e#2612#2914#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
