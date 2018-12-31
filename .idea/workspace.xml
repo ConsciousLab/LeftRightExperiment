@@ -2,71 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63308814-31e9-486b-8b1a-ec6cbd2a84dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/.Rhistory" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/Icon_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/jspsych.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/jspsychOLD.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/img/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/img/connect-retro-telephone-player-art-poster-print.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/img/explore-retro-bicycle-player-art-poster-print.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/img/relax-retro-sunglasses-art-poster-print.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/experiments.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/jspsych.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-animation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-audio-button-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-audio-keyboard-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-audio-slider-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-brms-test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-brms.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-call-function.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-categorize-animation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-categorize-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-categorize-image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-external-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-form.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-free-sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-fullscreen.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-html-button-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-html-keyboard-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-html-slider-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-iat-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-iat-image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-image-button-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-image-keyboard-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-image-slider-response.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-instructions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-reconstruction.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-resize.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-same-different-html.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-same-different-image.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-serial-reaction-time-mouse.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-serial-reaction-time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-survey-likert.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-survey-multi-choice.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-survey-multi-select.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-survey-text.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-video.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-visual-search-circle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-vsl-animate-occlusion.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/jspsych-vsl-grid-scene.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/jsPsych/plugins/template/jspsych-plugin-template.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/task.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/js/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/CustomEase.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/Icon_" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/TweenMax.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/backbone-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/d3.v3.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/jquery-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/lz-string.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/lib/underscore-min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/index.html" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -80,10 +18,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+            <state relative-caret-position="179">
+              <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
               <folding>
                 <element signature="n#script#17;n#head#0;n#html#0;n#!!top" />
               </folding>
@@ -92,6 +30,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="31" selection-start-column="31" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/task.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4876">
@@ -167,9 +114,9 @@
         <option value="$PROJECT_DIR$/client/index.html" />
         <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/static/index.html" />
         <option value="$PROJECT_DIR$/static/js/task.js" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -212,17 +159,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Programming\RanHassin\LeftRightExperiment" />
+      <recent name="D:\Programming\RanHassin\LeftRightExperiment\client" />
+      <recent name="D:\Programming\RanHassin\LeftRightExperiment\Client" />
+      <recent name="D:\Programming\RanHassin\LeftRightTemp\src\img" />
+      <recent name="D:\Programming\RanHassin\LeftRightTemp\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Programming\RanHassin\LeftRightExperiment" />
       <recent name="D:\Programming\RanHassin\LeftRightTemp\src" />
       <recent name="D:\Programming\RanHassin\LeftRightTemp\src\js" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Programming\RanHassin\LeftRightExperiment\client" />
-      <recent name="D:\Programming\RanHassin\LeftRightExperiment" />
-      <recent name="D:\Programming\RanHassin\LeftRightExperiment\Client" />
-      <recent name="D:\Programming\RanHassin\LeftRightTemp\src\img" />
-      <recent name="D:\Programming\RanHassin\LeftRightTemp\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,12 +248,12 @@
       <workItem from="1546165511467" duration="599000" />
       <workItem from="1546178159717" duration="5000" />
       <workItem from="1546199596733" duration="8944000" />
-      <workItem from="1546215190135" duration="316000" />
+      <workItem from="1546215190135" duration="686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37163000" />
+    <option name="totallyTimeSpent" value="37533000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
@@ -371,13 +318,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes.py" />
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="43" lean-forward="true" selection-start-column="43" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/experiments.js" />
     <entry file="file://$PROJECT_DIR$/app.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -390,16 +330,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="40" lean-forward="true" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-          <folding>
-            <element signature="n#script#17;n#head#0;n#html#0;n#!!top" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -421,6 +351,23 @@
             <element signature="e#9233#9382#0" />
             <element signature="e#9432#9890#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="18" column="35" lean-forward="true" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+          <folding>
+            <element signature="n#script#17;n#head#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="31" selection-start-column="31" selection-end-column="31" />
         </state>
       </provider>
     </entry>
