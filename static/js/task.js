@@ -31,21 +31,24 @@ const StartSurvey = [
                     prompt: "מהו גילך?",
                     columns: 20,
                     rows: 1,
-                    value: ''
+                    value: '',
+                    required: true
                 },
                 {
                     id: 'ID',
                     prompt: "מהי תעודת הזהות של הבודק?",
                     columns: 20,
                     rows: 1,
-                    value: ''
+                    value: '',
+                    required: true
                 },
                 {
                     id: 'PersonNumber',
                     prompt: "מהו מספרך?",
                     columns: 20,
                     rows: 1,
-                    value: ''
+                    value: '',
+                    required: true
                 }
             ]
     },
@@ -62,7 +65,14 @@ const StartSurvey = [
     },
     {
         type: 'survey-likert',
-        questions: [{prompt: "מהו הסטטוס האקדמי שלך", labels: educationScale}]
+        questions:
+            [
+                {
+                    prompt: "מהו הסטטוס האקדמי שלך",
+                    labels: educationScale,
+                    required: true
+                }
+            ]
     }
 ];
 experiment_blocks = experiment_blocks.concat(StartSurvey);
@@ -185,10 +195,19 @@ experiment_blocks.push(second_trial_procedure);
 const EndSurvey = [
     {
         type: 'survey-likert',
-        questions: [
-            {prompt: "כמה את חושבת שאת חכמה?", labels: numberScale},
-            {prompt: "כמה את חושבת שאת בעלת ביטחון?", labels: numberScale}
-        ]
+        questions:
+            [
+                {
+                    prompt: "מ1 עד 10, כמה את חושבת שאת חכמה?",
+                    labels: numberScale,
+                    required: true
+                },
+                {
+                    prompt: "מ1 עד 10, כמה את חושבת שאת בעלת ביטחון?",
+                    labels: numberScale,
+                    required: true
+                }
+            ]
     },
     {
         type: 'survey-likert',
@@ -198,21 +217,25 @@ const EndSurvey = [
                     prompt: "<p> (קראו או התיאור הבא, הלקוח מהספר 'הבית בקרן פו' (אודות פו הדוב):</p>/" + "<p>" +
                         "'ופו התבונן בכפות ידיו. הוא ידע שאחת מהן היא הימנית, והוא ידע שאחרי שמחליטים איזו מהן היא" +
                         "הימנית, אז האחרת היא השמאלית, אבל הוא אף פעם לא הצליח לזכור איך מתחילים'." + "</p>" +
-                        "<p>האם מצבו של פו שתואר לעיל נשמע לכם מוכר? האם לדעתכם יש לכם קושי כלשהו להבחין בין שמאל\n" +
+                        "<p>מ1 עד 10, עד כמה מצבו של פו שתואר לעיל נשמע לכם מוכר? האם לדעתכם יש לכם קושי כלשהו להבחין בין שמאל\n" +
                         "לימין?</p>",
-                    labels: numberScale
+                    labels: numberScale,
+                    required: true
                 },
                 {
-                    prompt: "באיזו תדירות אתם מתקשים להבחין בין שני הכיוונים 'ימין' ו'שמאל'?",
-                    labels: numberScale
+                    prompt: "מ1 עד 10, באיזו תדירות אתם מתקשים להבחין בין שני הכיוונים 'ימין' ו'שמאל'?",
+                    labels: numberScale,
+                    required: true
                 },
                 {
-                    prompt: "האם זהו קושי שמעיק עליכם ביום-יום?",
-                    labels: numberScale
+                    prompt: "מ 1 עד 10, עד כמה הקושי שמעיק עליכם ביום-יום?",
+                    labels: numberScale,
+                    required: true
                 },
                 {
-                    prompt: "באיזו תדירות אתם מתקשים להבחין בין 'למעלה' ו'למטה'? הקיפו את התשובה המתאימה ביותר:",
-                    labels: numberScale
+                    prompt: "מ 1 עד 10, באיזו תדירות אתם מתקשים להבחין בין 'למעלה' ו'למטה'?",
+                    labels: numberScale,
+                    required: true
                 }
             ]
     },
@@ -222,17 +245,19 @@ const EndSurvey = [
             [
                 {
                     id: 'age',
-                    prompt: "אנא פרטו את שפות אמכם ואת נסיבות רכישתן. pull down menue, Hebrew, English, Arabic, other",
+                    prompt: "אנא פרטו את שפות אמכם ואת נסיבות רכישתן",
                     columns: 100,
-                    rows: 1,
-                    value: ''
+                    rows: 4,
+                    value: '',
+                    required: true
                 },
                 {
                     id: 'age',
                     prompt: "האם קשיי השפה שלכם, אם ישנם כאלה, אובחנו אי פעם באופן פורמלי? [כן, לא, לא רלוונטי]",
                     columns: 100,
-                    rows: 1,
-                    value: ''
+                    rows: 4,
+                    value: '',
+                    required: true
                 }
             ]
     },
@@ -242,7 +267,8 @@ const EndSurvey = [
             [
                 {
                     prompt: "האם יש לכם קשיי שפה כלשהם? (קשיי כתיבה, איות, דיסלקציה מאובחנת או לא מאובחנת וכו).",
-                    labels: numberScale
+                    labels: numberScale,
+                    required: true
                 }
             ]
 
@@ -270,23 +296,39 @@ const EndSurvey = [
             [
                 {
                     prompt: "בהשוואה לנהג הממוצע, עד כמה אתה נהג טוב לדעתך?",
-                    labels: numberScale
+                    labels: numberScale,
+                    required: true
                 },
                 {
                     prompt: "להערכתך, בכמה תאונות היית מעורבת בשלוש השנים האחרונות כנהגת, כולל תאונות קטנות ללא פגיעה בגוף או ברכוש",
-                    labels: numberScale
+                    labels: numberScale,
+                    required: true
                 },
                 {
                     prompt: "להערכתך, בכמה כמעט תאונות היית מעורבת בשלוש השנים האחרונות כנהגת",
-                    labels: numberScale
+                    labels: numberScale,
+                    required: true
                 },
                 {
                     prompt: "כשאת משתמשת בתוכנת ניווט (וויז לדוגמא), כמה את מסתכלת על המסך?",
-                    labels: numberScale
+                    labels: numberScale,
+                    required: true
                 }
             ]
     },
 ];
+
+function downloadCSV(data) {
+    let csv = data;
+    let link = document.createElement('a');
+    if (!csv.match(/^data:text\/csv/i)) {
+        csv = 'data:text/csv;charset=utf-8,' + csv;
+    }
+    let exportData = encodeURI(csv);
+    link.setAttribute('href', exportData);
+    link.setAttribute('download', 'experiment_results.csv');
+    link.click();
+}
 
 experiment_blocks = experiment_blocks.concat(EndSurvey);
 
@@ -301,7 +343,8 @@ jsPsych.init({
     timeline: experiment_blocks,
     fullscreen: true,
     on_finish: function () {
-        jsPsych.data.displayData();
+        //jsPsych.data.displayData();
+        downloadCSV(jsPsych.data.get().csv());
     }
 });
 
