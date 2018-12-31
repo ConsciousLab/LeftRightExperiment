@@ -302,11 +302,6 @@ jsPsych.init({
     fullscreen: true,
     on_finish: function () {
         jsPsych.data.displayData();
-        // const xhttp = new XMLHttpRequest();
-        // xhttp.open('POST', '/');
-        // xhttp.setRequestHeader('Content-Type', 'application/json');
-        // xhttp.send("experimentData= experiment:{" + JSON.stringify(jsPsych.data.get()) + '}');
-        // saveData("experiment_data", jsPsych.data.get().csv());
     }
 });
 
