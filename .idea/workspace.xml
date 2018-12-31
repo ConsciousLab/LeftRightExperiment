@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63308814-31e9-486b-8b1a-ec6cbd2a84dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/static/js/task.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/task.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="30" column="75" lean-forward="true" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+            <state relative-caret-position="79">
+              <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -37,11 +36,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="166" column="11" selection-start-line="166" selection-start-column="11" selection-end-line="166" selection-end-column="11" />
+            <state relative-caret-position="164">
+              <caret line="220" column="101" lean-forward="true" selection-start-line="220" selection-start-column="101" selection-end-line="220" selection-end-column="101" />
               <folding>
                 <element signature="e#107#214#0" />
                 <element signature="e#289#450#0" />
+                <element signature="e#719#2140#0" />
                 <element signature="e#847#1489#0" />
                 <element signature="e#865#1048#0" />
                 <element signature="e#1066#1264#0" />
@@ -67,15 +67,10 @@
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#5214#5357#0" />
-                <element signature="e#5538#9828#0" />
                 <element signature="e#5432#5645#0" />
                 <element signature="e#5484#5639#0" />
-                <element signature="e#5651#6818#0" />
-                <element signature="e#5715#6812#0" />
                 <element signature="e#6824#7494#0" />
-                <element signature="e#7993#8305#0" />
                 <element signature="e#7782#8352#0" />
-                <element signature="e#8358#9152#0" />
                 <element signature="n#!!block;n#downloadCSV#0" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#9233#9382#0" />
@@ -102,6 +97,7 @@
       <find>button_label</find>
       <find>http</find>
       <find>row</find>
+      <find>פו הד</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -128,10 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -261,15 +257,15 @@
       <workItem from="1546165511467" duration="599000" />
       <workItem from="1546178159717" duration="5000" />
       <workItem from="1546199596733" duration="8944000" />
-      <workItem from="1546215190135" duration="7521000" />
+      <workItem from="1546215190135" duration="8732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44368000" />
+    <option name="totallyTimeSpent" value="45579000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.36160713" />
@@ -334,18 +330,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="30" column="75" lean-forward="true" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
+        <state relative-caret-position="79">
+          <caret line="21" column="66" selection-start-line="21" selection-start-column="66" selection-end-line="21" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="166" column="11" selection-start-line="166" selection-start-column="11" selection-end-line="166" selection-end-column="11" />
+        <state relative-caret-position="164">
+          <caret line="220" column="101" lean-forward="true" selection-start-line="220" selection-start-column="101" selection-end-line="220" selection-end-column="101" />
           <folding>
             <element signature="e#107#214#0" />
             <element signature="e#289#450#0" />
+            <element signature="e#719#2140#0" />
             <element signature="e#847#1489#0" />
             <element signature="e#865#1048#0" />
             <element signature="e#1066#1264#0" />
@@ -371,15 +368,10 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#5214#5357#0" />
-            <element signature="e#5538#9828#0" />
             <element signature="e#5432#5645#0" />
             <element signature="e#5484#5639#0" />
-            <element signature="e#5651#6818#0" />
-            <element signature="e#5715#6812#0" />
             <element signature="e#6824#7494#0" />
-            <element signature="e#7993#8305#0" />
             <element signature="e#7782#8352#0" />
-            <element signature="e#8358#9152#0" />
             <element signature="n#!!block;n#downloadCSV#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#9233#9382#0" />

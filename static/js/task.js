@@ -18,6 +18,10 @@ experiment_blocks.push(fullscreen);
 
 // defining response scales that can be used.
 const numberScale = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const numberKnownScale = ["1 - לא מוכר כלל" , 2, 3, 4, 5, 6, 7, 8, 9, "10 - מוכר מאוד"];
+const numberAlwaysScale = ["1 - לעולם לא" , 2, 3, 4, 5, 6, 7, 8, 9, "10 - תמיד"];
+const numberVeryScale = ["1 - כלל לא" , 2, 3, 4, 5, 6, 7, 8, 9, "10 - מאוד"];
+const numberMuchScale = ["1 - כלל לא" , 2, 3, 4, 5, 6, 7, 8, 9, "10 - הרבה מאוד"];
 const educationScale = ["מתחת", "בוגרת תיכון", "סטודנטית", "בוגרת תואר ראשון", "בוגרת תואר שני", "מעלה"];
 
 //Ask from the user for details
@@ -214,27 +218,27 @@ const EndSurvey = [
         questions:
             [
                 {
-                    prompt: "<p> (קראו או התיאור הבא, הלקוח מהספר 'הבית בקרן פו' (אודות פו הדוב):</p>/" + "<p>" +
+                    prompt: "<p> (קראו או התיאור הבא, הלקוח מהספר 'הבית בקרן פו' (אודות פו הדוב):</p>" + "<p>" +
                         "'ופו התבונן בכפות ידיו. הוא ידע שאחת מהן היא הימנית, והוא ידע שאחרי שמחליטים איזו מהן היא" +
                         "הימנית, אז האחרת היא השמאלית, אבל הוא אף פעם לא הצליח לזכור איך מתחילים'." + "</p>" +
                         "<p>מ1 עד 10, עד כמה מצבו של פו שתואר לעיל נשמע לכם מוכר? האם לדעתכם יש לכם קושי כלשהו להבחין בין שמאל\n" +
                         "לימין?</p>",
-                    labels: numberScale,
+                    labels: numberAlwaysScale,
                     required: true
                 },
                 {
                     prompt: "מ1 עד 10, באיזו תדירות אתם מתקשים להבחין בין שני הכיוונים 'ימין' ו'שמאל'?",
-                    labels: numberScale,
+                    labels: numberVeryScale,
                     required: true
                 },
                 {
                     prompt: "מ 1 עד 10, עד כמה הקושי שמעיק עליכם ביום-יום?",
-                    labels: numberScale,
+                    labels: numberAlwaysScale,
                     required: true
                 },
                 {
                     prompt: "מ 1 עד 10, באיזו תדירות אתם מתקשים להבחין בין 'למעלה' ו'למטה'?",
-                    labels: numberScale,
+                    labels: numberAlwaysScale,
                     required: true
                 }
             ]
@@ -267,7 +271,7 @@ const EndSurvey = [
             [
                 {
                     prompt: "האם יש לכם קשיי שפה כלשהם? (קשיי כתיבה, איות, דיסלקציה מאובחנת או לא מאובחנת וכו).",
-                    labels: numberScale,
+                    labels: numberMuchScale,
                     required: true
                 }
             ]
@@ -296,7 +300,7 @@ const EndSurvey = [
             [
                 {
                     prompt: "בהשוואה לנהג הממוצע, עד כמה אתה נהג טוב לדעתך?",
-                    labels: numberScale,
+                    labels: numberVeryScale,
                     required: true
                 },
                 {
@@ -311,7 +315,7 @@ const EndSurvey = [
                 },
                 {
                     prompt: "כשאת משתמשת בתוכנת ניווט (וויז לדוגמא), כמה את מסתכלת על המסך?",
-                    labels: numberScale,
+                    labels: numberMuchScale,
                     required: true
                 }
             ]
