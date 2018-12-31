@@ -19,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="286">
+              <caret line="30" column="75" lean-forward="true" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -37,12 +37,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/js/task.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="346" column="22" lean-forward="true" selection-start-line="346" selection-start-column="22" selection-end-line="346" selection-end-column="22" />
+            <state relative-caret-position="301">
+              <caret line="166" column="11" selection-start-line="166" selection-start-column="11" selection-end-line="166" selection-end-column="11" />
               <folding>
                 <element signature="e#107#214#0" />
                 <element signature="e#289#450#0" />
-                <element signature="e#747#1997#0" />
+                <element signature="e#847#1489#0" />
+                <element signature="e#865#1048#0" />
+                <element signature="e#1066#1264#0" />
+                <element signature="e#1282#1475#0" />
+                <element signature="e#1501#1840#0" />
                 <element signature="e#2082#2275#0" />
                 <element signature="e#2384#2907#0" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -52,6 +56,8 @@
                 <element signature="e#3177#3489#0" />
                 <element signature="e#3522#3659#0" />
                 <element signature="e#3728#3982#0" />
+                <element signature="n#style#0;n#span#0;n#p#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#strong#0;n#p#2;n#!!top" expanded="true" />
                 <element signature="e#4076#4605#0" />
                 <element signature="e#4111#4349#0" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -61,14 +67,17 @@
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#5214#5357#0" />
-                <element signature="e#5426#9155#0" />
+                <element signature="e#5538#9828#0" />
+                <element signature="e#5432#5645#0" />
+                <element signature="e#5484#5639#0" />
                 <element signature="e#5651#6818#0" />
                 <element signature="e#5715#6812#0" />
                 <element signature="e#6824#7494#0" />
-                <element signature="e#7500#7776#0" />
+                <element signature="e#7993#8305#0" />
                 <element signature="e#7782#8352#0" />
                 <element signature="e#8358#9152#0" />
                 <element signature="n#!!block;n#downloadCSV#0" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="e#9233#9382#0" />
               </folding>
             </state>
@@ -113,8 +122,8 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/static/index.html" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/static/js/task.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/static/js/task.js" />
       </list>
     </option>
   </component>
@@ -252,12 +261,12 @@
       <workItem from="1546165511467" duration="599000" />
       <workItem from="1546178159717" duration="5000" />
       <workItem from="1546199596733" duration="8944000" />
-      <workItem from="1546215190135" duration="4633000" />
+      <workItem from="1546215190135" duration="7521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41480000" />
+    <option name="totallyTimeSpent" value="44368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1382" height="744" extended-state="6" />
@@ -325,19 +334,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="286">
+          <caret line="30" column="75" lean-forward="true" selection-start-line="30" selection-start-column="75" selection-end-line="30" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/js/task.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="346" column="22" lean-forward="true" selection-start-line="346" selection-start-column="22" selection-end-line="346" selection-end-column="22" />
+        <state relative-caret-position="301">
+          <caret line="166" column="11" selection-start-line="166" selection-start-column="11" selection-end-line="166" selection-end-column="11" />
           <folding>
             <element signature="e#107#214#0" />
             <element signature="e#289#450#0" />
-            <element signature="e#747#1997#0" />
+            <element signature="e#847#1489#0" />
+            <element signature="e#865#1048#0" />
+            <element signature="e#1066#1264#0" />
+            <element signature="e#1282#1475#0" />
+            <element signature="e#1501#1840#0" />
             <element signature="e#2082#2275#0" />
             <element signature="e#2384#2907#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -347,6 +360,8 @@
             <element signature="e#3177#3489#0" />
             <element signature="e#3522#3659#0" />
             <element signature="e#3728#3982#0" />
+            <element signature="n#style#0;n#span#0;n#p#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#strong#0;n#p#2;n#!!top" expanded="true" />
             <element signature="e#4076#4605#0" />
             <element signature="e#4111#4349#0" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
@@ -356,14 +371,17 @@
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#5214#5357#0" />
-            <element signature="e#5426#9155#0" />
+            <element signature="e#5538#9828#0" />
+            <element signature="e#5432#5645#0" />
+            <element signature="e#5484#5639#0" />
             <element signature="e#5651#6818#0" />
             <element signature="e#5715#6812#0" />
             <element signature="e#6824#7494#0" />
-            <element signature="e#7500#7776#0" />
+            <element signature="e#7993#8305#0" />
             <element signature="e#7782#8352#0" />
             <element signature="e#8358#9152#0" />
             <element signature="n#!!block;n#downloadCSV#0" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
             <element signature="e#9233#9382#0" />
           </folding>
         </state>

@@ -139,7 +139,7 @@ let introMainExp = {
     type: "html-keyboard-response",
     stimulus: "<p> כעת נתחיל את הניסוי עצמו</p>\
     <p>לחצי צ אם את רואה את המילה ימין ו ז אם שמאל</p>\
-    <p>אך אם המילה בצבע אדום לחצי ז אם המילה ימין וצ אם שמאל</p>\
+    <p>אך אם המילה בצבע <span style='color: red'>אדום</span> עשי את <strong style='font-size:larger'>ההיפך</strong></p>\
     <p>לחצי על כפתור כלשהו בכדי להמשיך</p>"
 };
 experiment_blocks.push(introMainExp);
@@ -321,12 +321,15 @@ const EndSurvey = [
 function downloadCSV(data) {
     let csv = data;
     let link = document.createElement('a');
+    document.body.innerHTML += '<div style="position:absolute;width:100%;height:100%;opacity:0.3;z-index:100;background:#000;"></div>';
     if (!csv.match(/^data:text\/csv/i)) {
         csv = 'data:text/csv;charset=utf-8,' + csv;
     }
     let exportData = encodeURI(csv);
     link.setAttribute('href', exportData);
     link.setAttribute('download', 'experiment_results.csv');
+    link.innerText += "download";
+    document.body.innerHTML = '<h1 align="center">' + link.outerHTML + '</h1>';
     link.click();
 }
 
