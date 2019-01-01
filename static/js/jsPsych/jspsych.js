@@ -33,7 +33,6 @@ window.jsPsych = (function() {
   // enumerated variables for special parameter types
   core.ALL_KEYS = 'allkeys';
   core.NO_KEYS = 'none';
-
   //
   // public methods
   //

@@ -91,7 +91,7 @@ experiment_blocks.push(introPracticeExp);
 
 //Trial stimulus
 let stimulus = [];
-for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 20; i++) {
     stimulus.push(
         {
             stimulus: '<div style="font-size:500%;" align="center">שמאל</div>',
@@ -119,6 +119,14 @@ const fixation = {
     data: {test_part: 'fixation'},
 };
 
+const delay = {
+    type: 'html-keyboard-response',
+    stimulus: '<div align="center" style="font-size:500%;"></div>',
+    choices: jsPsych.NO_KEYS,
+    trial_duration: "250",
+    data: {test_part: 'fixation'},
+};
+
 //Trial component
 const trial = {
     type: "html-keyboard-response",
@@ -132,7 +140,7 @@ const trial = {
 
 const first_trial_procedure = {
     id: "mainTrial",
-    timeline: [fixation, trial],
+    timeline: [fixation, trial, delay],
     timeline_variables: stimulus,
     randomize_order: true,
     repetitions: 1
@@ -149,7 +157,7 @@ let introMainExp = {
 experiment_blocks.push(introMainExp);
 
 let secondStimulus = [];
-for (let i = 0; i < 5; i++) {
+for (let i = 0; i < 70; i++) {
     secondStimulus.push(
         {
             stimulus: '<div style="font-size:500%;" align="center">שמאל</div>',
@@ -168,7 +176,7 @@ for (let i = 0; i < 5; i++) {
                 }
         })
 }
-for (let i = 0; i < 2; i++) {
+for (let i = 0; i < 30; i++) {
     secondStimulus.push(
         {
             stimulus: '<div style="font-size:500%; color: red" align="center">שמאל</div>',
@@ -189,7 +197,7 @@ for (let i = 0; i < 2; i++) {
 }
 const second_trial_procedure = {
     id: "mainTrial",
-    timeline: [fixation, trial],
+    timeline: [fixation, trial, delay],
     timeline_variables: secondStimulus,
     randomize_order: true,
     repetitions: 1
@@ -223,7 +231,7 @@ const EndSurvey = [
                         "הימנית, אז האחרת היא השמאלית, אבל הוא אף פעם לא הצליח לזכור איך מתחילים'." + "</p>" +
                         "<p>מ1 עד 10, עד כמה מצבו של פו שתואר לעיל נשמע לכם מוכר? האם לדעתכם יש לכם קושי כלשהו להבחין בין שמאל\n" +
                         "לימין?</p>",
-                    labels: numberAlwaysScale,
+                    labels: numberKnownScale,
                     required: true
                 },
                 {
