@@ -183,7 +183,7 @@ for (let i = 0; i < 30; i++) {
             data:
                 {
                     test_part: 'red_trial_left',
-                    correct_response: 'l'
+                    correct_response: 'm'
                 }
         },
         {
